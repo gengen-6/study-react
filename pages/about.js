@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
 import { Footer } from '@/components/Footer'
 import Links from '@/components/Links'
+import Headline from '@/components/Headline'
 
 
 export default function Home() {
@@ -14,12 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <div className={styles.description}>
-          <p>
-            Get started by editing&nbsp;
-            <code className={styles.code}>Hello/about.js</code>
-          </p>
-         </div>
+          <Headline page='about' />
          <Links />
       </main>
 
