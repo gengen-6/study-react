@@ -9,6 +9,7 @@ export function Main(props) {
         <Headline page={props.page}>
           <code className={styles.code}>Hello/{props.page}.js</code>
         </Headline>
+
         <Links />
       </main>
     </>
