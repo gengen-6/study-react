@@ -1,12 +1,12 @@
-import Image from 'next/image'
-import styles from '@/styles/Home.module.css'
+import Image from 'next/image';
+import styles from '@/styles/Home.module.css';
 
 export function Footer() {
   return (
     <>
       <footer className={styles.footer}>
-        Powerd by{" "}
-      <Image
+        Powerd by{' '}
+        <Image
           src="/vercel.svg"
           alt="Vercel Logo"
           className={styles.vercelLogo}
@@ -16,5 +16,5 @@ export function Footer() {
         />
       </footer>
     </>
-  )
+  );
 }
